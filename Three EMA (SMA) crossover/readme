@@ -1,1 +1,25 @@
-
+We have seen that the Number of profitable trade and the number of non-profitable trades is nearly
+equal (i.e, No of Trades: 9338 No of Profitable Trades: 4724, Accuracy of Strategy: 0.51 ) but
+Strategy return is still more than Buy and hold return (Buy and Hold Returns: 111.38, Strategy
+Returns: 136.39). for further improvement of this strategy is either Change in Time frame or by
+changing moving averager's period.
+EMA/SMA period from (Fast,mid,slow)=(5,8,13) to (Fast,mid,slow)=(5,9,14) then our matrices
+are going to be:
+No of Trades: 9648
+No of Profitable Trades: 4896
+Accuracy of Strategy: 0.51
+Returns:
+Buy and Hold Returns: 111.38
+Strategy Returns: 148.64
+Drawdown:
+Buy and Hold: -64.52
+Strategy: -13.44
+Changing the time frame from 5 to 10 the results are:
+No of Trades: 4624
+No of Profitable Trades: 2423
+Accuracy of Strategy: 0.52
+Returns:
+Buy and Hold Returns: 111.38
+Strategy Returns: 175.88
+We can observe from above that when we changed the time frame from 5 min to 10 min and applied
+the same ema crossovers strategy then the returns goes up to 176 % from 136%
